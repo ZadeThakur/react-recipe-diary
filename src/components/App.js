@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme =>({
 
 const App = () =>{
   const classes = useStyles();
-  const [recipeNames, setRecipeNames] = useState(["Alo Gobhi","Phool Gobhi"]);
+  const [recipeNames, setRecipeNames] = useState(["Butter Chicken","Salad"]);
   const [recipeDetails,setRecipeDetails] = useState(["Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum", "Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"]);
   const [selectedRecipe, setSelectedRecipe] = useState("0");
   const [addRecipeComp, setAddRecipeComp] = useState(0);
