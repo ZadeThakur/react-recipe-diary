@@ -45,12 +45,13 @@ const App = () =>{
   const addingRecipe = (term1,term2) =>{
     setRecipeNames([...recipeNames, term1]);
     setRecipeDetails([...recipeDetails, term2]);
+    setAddRecipeComp(0);
   }
 
   const lowerSegment = () =>{
     if(addRecipeComp === 1){
       return(
-        <AddRecipe addRecipe={addingRecipe}/>
+        <AddRecipe addRecipe={addingRecipe} />
       );
     }else{
       return(
